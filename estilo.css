@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: rgb(231, 252, 255);
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+.logo, .botao{
+    margin: 30px;
+}
+.botao button{
+    width: 200px;
+    box-shadow: 0 5px 5px  rgb(194, 192, 192);
+    border-radius: 30px;
+    height: 50px;
+    background-color: white;
+    font-weight: bold;
+    border:none;
+}
+.principal{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.textoPrincipal{
+    text-align:justify;
+    margin: 70px;
+}
+.textoPrincipal button{
+    width: 250px;
+    height: 50px;
+    margin: 25px;
+    border-radius: 30px;
+    background-color:rgb(228, 135, 166);
+    color: white;
+    font-weight: bold;
+    border:none;
+    box-shadow: 0 5px 5px  rgb(194, 192, 192);
+}
+.imagens img{
+    width: 90%;
+    height: auto;
+}
+.sessaoSecundaria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cardGrow, .cardUsers, .cardFlowing{
+    margin-top: 50px;
+    padding: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 5px  rgb(194, 192, 192);
+    
+}
+.cardImage img {
+    width: 70%; 
+    padding: 50px;
+}
+.cardFlowing{
+    flex-direction: row-reverse;   
+}
+.texto{
+    margin:auto; 
+    padding-left: 30px; 
+}
+.texto h1{
+    margin-bottom: 20px; 
+}
+.texto p{
+    text-align: justify;
+}
+.cardReady{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-left: 20rem;
+    height: 14rem;
+    width: 44rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    margin-bottom: -4rem;
+    background-color: #fff;
+    
+}
+.textoCommunity{
+    margin: 50px;
+    font-size: 30px;
+}
+.cardReady button{
+    width: 50%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgb(250, 86, 242);
+    color: rgb(255, 255, 255);
+    margin: auto;
+    border:none;
+    box-shadow: 0 5px 5px  rgb(194, 192, 192);
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.logoRodape{
+    display: flex;
+    flex-direction: row;   
+}
+.logoRodape img{
+    width:50px;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+}
+.contato, .cardSobre, .cardBlog, .cardRedes{
+    width: 25%;
+    margin: 70px;
+    margin-top:100px;
+}
+
+.contato ul li{
+    list-style-image:url('images/icon-location.svg') ;
+    padding: 10px;
+}
+.contato ul li:nth-child(2){
+    list-style-image:url('images/icon-phone.svg') ;
+}
+.contato ul li:nth-child(3){
+    list-style-image:url('images/icon-email.svg') ;
+}
+.cardSobre, .cardBlog{
+    padding: 55px;
+}
+.cardSobre li, .cardBlog li{
+    padding: 15px;
+}
+.cardRedes{
+    display:flex;
+    flex-direction: column;  
+    justify-content: space-between;     
+}
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyrigth p{
+    font-size: 10px;
+}
+.cardRedes img{
+    width: 40px;
+    height: auto;
+    margin-top: 60px;
+    cursor: pointer;    
+}
+.cardRedes img:hover{
+    background-color:rgb(250, 86, 242) ;
+    border-radius:50px;
+}
+button{
+    cursor: pointer;
+}
+.cardSobre li:hover, .cardBlog li:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}

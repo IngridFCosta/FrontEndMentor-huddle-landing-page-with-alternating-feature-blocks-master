@@ -1,0 +1,111 @@
+@media (min-width: 480px) and (max-width: 542px)  {
+    main{
+        max-width: 100vw;
+    }
+
+   .logo img{
+       width: 100px;
+   }
+   .botao button{
+       width: 150px;
+       height: 30px;
+   }
+   .principal{
+       width: 100%;
+       flex-direction: column;
+       justify-content: space-between;
+       margin: auto;
+   }
+   .textoPrincipal{
+       margin: auto;
+       text-align: center;
+   }
+   .textoPrincipal h1{
+       font-size: 22px;
+       text-align: center;
+       padding: 20px;
+   }
+   .textoPrincipal p{
+       font-size: 15px;
+       text-align: center;
+       padding: 20px;
+   }
+   .textoPrincipal button{
+       width: 300px;
+       height: 50px;
+       margin: auto;
+       font-size: 15px;
+       margin: 40px 15px;
+   }
+   .imagens{
+       width: 90%;
+       margin: auto;
+   }
+   .cardGrow, .cardUsers, .cardFlowing{
+       flex-direction: column-reverse;
+       padding: auto;
+   }
+   .texto{
+       padding: 10px;
+   }
+   .texto h1{
+        margin:10px;
+        text-align: center;
+    }
+   .texto p{
+    text-align: center;
+}
+   .cardReady{
+      width: 80%;
+      height:200px;
+      position:relative;
+      margin-left: 3rem;
+      
+   }
+   .textoCommunity{
+    font-size: 20px;
+    margin:0 auto;
+    padding-top: 40px;
+}
+
+.cardReady button{
+    width: 70%;
+    height: 50px;
+}
+    footer{
+        width:auto;
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       justify-content: space-between;
+    }
+    .contato{
+        width: 80%;
+        margin-top: 30%;
+        margin-left: 40px;
+    }
+    .contato ul li:nth-child(1){
+        text-align:left;
+    }
+    .cardSobre,.cardBlog{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .cardRedes{
+        width: 60%;
+        margin: auto;
+        display: flex;
+    }
+    .icones{
+        display: flex;
+        justify-content: space-around;
+    }
+    .copyright p{
+        padding-top: 30px;
+        text-align: center;
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    
+}
